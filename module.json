@@ -1,11 +1,11 @@
 {
   "fullname": "@nebulario/dll-utils",
-  "version": "",
+  "version": "1.0.0-master",
   "repository": {
     "url": "github.com:vicjicaman/dll-utils.git",
     "upstream": {}
   },
   "labels": {
-    "type":"npm-dll"
+    "type": "npm-dll"
   }
 }
