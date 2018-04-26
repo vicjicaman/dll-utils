@@ -40,7 +40,8 @@
     "prepublish": "yarn build:prod"
   },
   "dependencies": {
-    "deepmerge": "^2.0.1"
+    "deepmerge": "^2.0.1",
+    "moment": "^2.22.1"
   },
   "peerDependencies": {}
 }
