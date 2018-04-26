@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/dll-utils",
-  "version": "1.0.0-master",
+  "version": "1.0.10-master",
   "mountpoint": "utils",
   "description": "Utils dlls",
   "repository": "github.com:vicjicaman/dll-utils.git",
@@ -40,7 +40,8 @@
     "prepublish": "yarn build:prod"
   },
   "dependencies": {
-    "deepmerge": "^2.0.1"
+    "deepmerge": "^2.0.1",
+    "moment": "^2.22.1"
   },
   "peerDependencies": {}
 }
