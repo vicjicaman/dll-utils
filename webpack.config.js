@@ -37,7 +37,7 @@ module.exports = (env = {}) => {
 
   /****************************************************************************/
   let entry = {};
-  entry['lib'] = ["deepmerge"];
+  entry['lib'] = ["deepmerge", "moment"];
   entry = {
     ...entry
   };
