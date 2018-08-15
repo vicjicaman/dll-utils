@@ -1,12 +1,10 @@
 {
+  "type": "npm",
   "fullname": "@nebulario/dll-utils",
   "version": "1.0.21-local-ui-graph-dev",
   "repository": {
     "url": "github.com:vicjicaman/dll-utils.git",
     "upstream": {}
   },
-  "labels": {
-    "type": "npm",
-    "subtype": "dll"
-  }
+  "labels": [{"labelid":"group", "value":"dll"}]
 }
