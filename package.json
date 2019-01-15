@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/dll-utils",
-  "version": "1.0.10-master",
+  "version": "1.0.0-master",
   "mountpoint": "utils",
   "description": "Utils dlls",
   "repository": "github.com:vicjicaman/dll-utils.git",
@@ -36,12 +36,16 @@
     "clean": "rm -Rf ./dist",
     "build:prod": "yarn clean && webpack --config webpack.config.js --env.production ",
     "build:dev": "yarn clean && webpack --config webpack.config.js --env.development ",
-    "analyze": "webpack --config webpack.config.js --env.analyze",
-    "prepublish": "yarn build:prod"
+    "start:prod": "yarn build:prod --watch",
+    "start:dev": "yarn build:dev --watch",
+    "build:watch:prod": "yarn build:prod --watch",
+    "build:watch:dev": "yarn build:dev --watch",
+    "analyze": "webpack --config webpack.config.js --env.analyze"
   },
   "dependencies": {
     "deepmerge": "^2.0.1",
-    "moment": "^2.22.1"
+    "moment": "^2.22.1",
+    "validation": "^0.0.1"
   },
   "peerDependencies": {}
 }
