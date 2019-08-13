@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/dll-utils",
-  "version": "1.70.0-beta-public-dlls-prod",
+  "version": "1.70.1-master",
   "mountpoint": "utils",
   "description": "Utils dlls",
   "repository": "github.com:vicjicaman/dll-utils.git",
